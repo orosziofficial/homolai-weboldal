@@ -1,4 +1,12 @@
 (function () {
+  // .html nélküli címek: /referenciak.html -> /referenciak, /index.html -> /
+  try {
+    var p = location.pathname;
+    if (/\.html$/.test(p) && location.protocol !== 'file:') {
+      var clean = p.replace(/(^|\/)index\.html$/, '$1').replace(/\.html$/, '');
+      history.replaceState(null, '', clean + location.search + location.hash);
+    }
+  } catch (e) {}
   var D = {
     nav_refs: { hu: 'REFERENCIÁK', en: 'REFERENCES' },
     nav_contact: { hu: 'KAPCSOLAT', en: 'CONTACT' },
