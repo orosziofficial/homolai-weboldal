@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link data-mgx-overview="icon" rel="icon" href="https://mgx-backend-cdn.metadl.com/mgx-backend-1300249583/chats/logo/9cd32ac6c0c24e0a9e98d930d8dfd79b.png" />
+    <title data-mgx-overview="title">Homolai Mérnökiroda</title>
+    <meta data-mgx-overview="description" name="description" content="Homolai Mérnökiroda - Szakértelem, Biztonság, Jövő. Műszaki ellenőrzés, projekt menedzsment, műszaki tanácsadás." />
+    <meta data-mgx-overview="og:title" property="og:title" content="Homolai Mérnökiroda" />
+    <meta data-mgx-overview="og:description" property="og:description" content="Emberközpontú, átgondolt és időtálló műszaki megoldásokon dolgozunk." />
+    <meta data-mgx-overview="og:image" property="og:image" content="https://mgx-backend-cdn.metadl.com/mgx-backend-1300249583/chats/logo/9cd32ac6c0c24e0a9e98d930d8dfd79b.png" />
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+        <!-- GLightbox CSS -->
+         
+    <link href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="assets/script-DtcKiAQT.js"></script>
+  <link rel="stylesheet" crossorigin href="assets/script-Bj_hMwu_.css">
+    <link rel="stylesheet" href="assets/site.css">
+    <script src="assets/i18n.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="assets/logo.png" alt="Homolai Mérnökiroda Logo" class="logo me-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="referenciak.html"data-i18n="nav_refs">REFERENCIÁK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-i18n="nav_contact" href="kapcsolat.html">KAPCSOLAT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/homolai" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </li>
+                <li class="nav-item lang-switch">
+                        <button class="lang-btn" data-lang="hu" aria-label="Magyar" title="Magyar"><svg viewBox="0 0 3 2" xmlns="http://www.w3.org/2000/svg"><rect width="3" height="2" fill="#477050"/><rect width="3" height="1.34" fill="#fff"/><rect width="3" height=".67" fill="#CD2A3E"/></svg></button>
+                        <button class="lang-btn" data-lang="en" aria-label="English" title="English"><svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="40" fill="#012169"/><path d="M0 0L60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0L60 40M60 0L0 40" stroke="#C8102E" stroke-width="3"/><path d="M30 0V40M0 20H60" stroke="#fff" stroke-width="13"/><path d="M30 0V40M0 20H60" stroke="#C8102E" stroke-width="8"/></svg></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <style>
+    .service-card {
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        border: 2px solid #ff8f3f;
+
+    }
+
+    .service-card:hover {
+        transform: translateY(-5px);
+    }
+</style>
+<!-- Hero Section -->
+<section class="hero-section d-flex align-items-center justify-content-center text-center text-white">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative z-1">
+        <h1 class="hero-title">
+            <span data-i18n="hero1">SZAKÉRTELEM</span>
+            <span data-i18n="hero2">BIZTONSÁG</span>
+            <span data-i18n="hero3">JÖVŐ</span>
+        </h1>
+        <p class="hero-subtitle mt-3" data-i18n="hero_sub">HOMOLAI MÉRNÖKIRODA</p>
+    </div>
+    <a href="#about" class="scroll-down-arrow">
+        <i class="bi bi-chevron-down"></i>
+    </a>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section py-5">
+    <div class="container text-center">
+        <p class="about-text lead" data-i18n="about"></p>
+        <div class="orange-line mx-auto mt-4"></div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section py-5">
+    <div class="container">
+        <div class="row g-5" id="services-container">
+
+        </div>
+    </div>
+</section>
+
+<!-- Partners Section -->
+<section id="partners" class="partners-section py-5">
+    <div class="container text-center">
+        <h2 class="section-title" data-i18n="partners_title">Partnereink</h2>
+        <p class="text-muted mb-4" data-i18n="partners_sub"></p>
+        <div class="partners-row" id="partners-container"></div>
+    </div>
+</section>
+
+<!-- Parallax Divider -->
+<section class="parallax-divider"></section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title" data-i18n="contact_title">Vedd fel velünk a kapcsolatot</h2>
+            <p class="text-muted" data-i18n="contact_text"></p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <form id="contactForm">
+                    <div class="row mb-3">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label for="email" class="form-label" data-i18n="f_email">Email cím</label>
+                            <input type="email" class="form-control rounded-pill" id="email"
+                                data-i18n-ph="f_email_ph" placeholder="Email cím megadása">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="name" class="form-label" data-i18n="f_name">Név</label>
+                            <input type="text" class="form-control rounded-pill" id="name"
+                                data-i18n-ph="f_name_ph" placeholder="Teljes név megadása">
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="form-label" data-i18n="f_msg">Üzenet</label>
+                        <textarea class="form-control rounded-4" id="message" rows="5"
+                            data-i18n-ph="f_msg_ph" placeholder="Üzenet megadása"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-orange btn-lg rounded-pill px-5" data-i18n="f_send">ELKÜLDÉS</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    services = [
+        { 'service-id': 'inspection', 'service-icon': 'assets/inspection-icon.png', 'title': 'svc_inspection_t', 'desc': 'svc_inspection_d' },
+        { 'service-id': 'project-management', 'service-icon': 'assets/project-management-icon.png', 'title': 'svc_pm_t', 'desc': 'svc_pm_d' },
+        { 'service-id': 'consulting', 'service-icon': 'assets/consulting-icon.png', 'title': 'svc_consulting_t', 'desc': 'svc_consulting_d' },
+        { 'service-id': 'property-assessment', 'service-icon': 'assets/plan-review-icon.png', 'title': 'svc_assess_t', 'desc': 'svc_assess_d' }
+    ]
+
+
+    function renderServices() {
+        const servicesContainer = document.getElementById('services-container');
+        servicesContainer.innerHTML = '';
+        services.forEach(service => {
+            const serviceCard = document.createElement('div');
+            serviceCard.className = 'col-md-6';
+            serviceCard.innerHTML = `
+            <div class="service-card" id="service-${service['service-id']}">
+                <div class="service-icon">
+                    <img src="${service['service-icon']}" alt="${tr(service.title)}" width="80" height="80">
+                </div>
+                <h4 class="service-title">${tr(service.title)}</h4>
+              </div>
+        `;
+            servicesContainer.appendChild(serviceCard);
+        });
+    }
+    window.addEventListener('load', renderServices);
+    document.addEventListener('langchange', renderServices);
+
+    addEventListener('click', function (event) {
+        if (event.target.closest('.service-card')) {
+            openModal(event.target.closest('.service-card').id.replace('service-', ''));
+        }
+    });
+
+    function openModal(serviceID) {
+        const s = services.find(service => service['service-id'] === serviceID);
+        const modal = document.getElementById('serviceModal');
+        document.getElementById('serviceModalBody').innerHTML = `
+    <h4 class="service-title">${tr(s.title)}</h4>
+    <img src="${s['service-icon']}" alt="${tr(s.title)}" width="80" height="80">
+    <p>${tr(s.desc)}</p>
+    `;
+        bootstrap.Modal.getOrCreateInstance(modal).show();
+    }
+
+
+</script>
+
+<div id="serviceModal" class="modal fade" tabindex="-1" aria-labelledby="serviceModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="serviceModalLabel" data-i18n="modal_title">Szolgáltatás</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+            </div>
+            <div class="modal-body" id="serviceModalBody"></div>
+            <div class="modal-footer">
+                <button type="button" id="service-modal-close" class="btn btn-orange btn-lg rounded-pill px-5" data-bs-dismiss="modal" data-i18n="modal_close">Bezárás</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Footer -->
+    <footer class="footer-section py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="footer-brand">
+                        <img src="assets/logo.png" alt="Homolai Mérnökiroda Logo" class="logo me-2">
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <a href="referenciak.html" class="footer-link" data-i18n="nav_refs">REFERENCIÁK</a>
+                    <a href="kapcsolat.html" class="footer-link ms-3" data-i18n="nav_contact">KAPCSOLAT</a>
+                    <a href="https://www.facebook.com/homolai" target="_blank" class="footer-link ms-3"><i class="bi bi-facebook"></i></a>
+                </div>
+                <div class="col-md-4 text-end">
+                    <small class="text-muted" data-i18n="footer_rights">Minden jog fenntartva!<br>Impresszum</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/partners.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.1/dist/js/glightbox.min.js"></script>
+    
+       <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- GLightbox JS -->
+    
+</body>
+
+</html>
