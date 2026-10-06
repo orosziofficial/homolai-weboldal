@@ -98,7 +98,12 @@
 
   document.addEventListener('click', function (e) {
     var b = e.target.closest('.lang-btn');
-    if (b) { e.preventDefault(); setLang(b.getAttribute('data-lang')); }
+    if (b) {
+      e.preventDefault();
+      setLang(b.getAttribute('data-lang'));
+      var nav = document.getElementById('navbarNav');
+      if (nav && nav.classList.contains('show') && window.bootstrap) bootstrap.Collapse.getOrCreateInstance(nav).hide();
+    }
   });
   document.addEventListener('DOMContentLoaded', apply);
 })();
