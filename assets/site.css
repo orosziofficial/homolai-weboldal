@@ -24,3 +24,8 @@
 .partner-lart { gap: 14px; }
 .partner-lart img:first-child { height: 82px; width: auto; }
 .partner-lart img:last-child { height: 46px; width: auto; }
+.footer-legal { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.footer-legal:hover { color: var(--orange); }
+.consent-check { max-width: 640px; margin-left: auto; margin-right: auto; }
+.consent-check a { color: var(--orange); }
+.consent-check .form-check-input:checked { background-color: var(--orange); border-color: var(--orange); }
